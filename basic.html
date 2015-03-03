@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>How To Guide - Gale</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<head>
+
+</head>
+
+<body>
+    <header>
+        <h1><a class="title" href="main.html">How To Guide - Gale</a></h1>
+    </header>
+
+    <nav>
+        <p class="list"><a href="main.html">Introduction</a></p>
+        <p class="list"><a href="what.html">What &amp; Why</a></p>
+        <p class="list"><a href="basic.html">Basic Implementation</a></p>
+        <p class="list"><a href="solutions.html">Challenges &amp; Solutions</a></p>
+    </nav>
+
+    <section>
+        <h1 id="storyTitle">Basic Implementation</h1>
+
+        <p class="details"> 
+        The basic implementation of the <i>download</i> attribute, is well, basic. Very basic. The reason why this section is smaller and on its own, is to also hint at the large number of restrictions of the <i>download</i> attribute and HTML as well.
+
+        <p class="details"> 
+        The <i>a</i> tag is the same as before, however the <i>download</i> attribute is placed after the <i>href</i> declaration. This tells the browser running that the object enclosed in the <i>a</i> brackets will be downloaded by the user. This statement is the default statement, and simply downloads the exact file as is to the users download directory, while keeping the user on the same page.
+        The standard call for making an object a link to data that is downloaded by the user is: 
+        </p>
+        <a href="HelloWorld.pdf" download><img src="CodePhotos/downloadBasicLink.png"></a>
+
+        </p>
+        <p class="details">
+        A variation, and in fact the only variation to the <i>download</i> attribute is below: 
+        </p>
+
+        <a href="HelloWorld.pdf" download="newNameFile"><img src="CodePhotos/dowloadNewNameLink.PNG"></a>
+
+        <p class="details">
+        Setting the <i>download</i> attribute with a new string name, will change the name of the file once it is downloaded by the user. This is useful when the data being accessed has an obscure naming convention by a third party, or if the source location requires a unique naming convention for organization. 
+        In short, these are the only two modifications to the <i>download</i> attribute. Not very good if you want your website to do more and have these features across multiple web platforms. <i>Download</i> is currently only supported in HTML5 with these browsers: 
+        </p>
+
+        <div class="browsers">
+            <table>
+            <tr>
+                <th>Chrome</th>
+                <th>FireFox</th>
+                <th>IE</th>
+                <th>Opera</th>
+                <th>Safari</th>
+            </tr>
+            <tr>
+                <td>14+</td>
+                <td>20.0+</td>
+                <td class="no">No Support</td>
+                <td>15</td>
+                <td class="no">No Support</td>
+            </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        &laquo; Created by Gerald Gale for CS290 - Winter 2015 &raquo;
+    </footer>
+</body>
+</html>

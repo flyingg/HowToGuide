@@ -1,0 +1,121 @@
+header {
+    background-color: red;
+    height:75px;
+    width:100%;
+    color:white;
+    text-align:center;	 
+}
+
+header h1 {
+	padding-top: 20px;
+}
+
+p.list:hover { 
+    background-color: red;
+}
+
+nav {
+    background-color:#eeeeee;
+    float:left;	 
+    width: 15%;
+    height: 1000px;     
+}
+nav p {
+	padding: 10px;  
+}
+
+p.details { 
+    padding: 20px;  
+}
+
+p.list:hover {
+    color: white;
+}
+
+p.list:visited {
+    color: white;
+}
+
+img { 
+    padding: 20px;  
+}
+
+dl { 
+    padding: 20px;  
+}
+
+div.browsers {
+    padding: 20px;
+}
+
+table {  
+    color: #333; 
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    width: 700px; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+}
+
+td, th { 
+    border: 1px solid #CCC; 
+    height: 30px; 
+} 
+
+th {
+    background: #F3F3F3; 
+    font-weight: bold; 
+}
+
+td {
+    background: #FAFAFA; 
+    text-align: center; 
+}
+
+td.no {
+    color: red; 
+}
+
+section {
+	background-color:white;
+    float:right;	 
+    width: 85%;
+    height: 1000px;   
+}
+
+section h1 {
+	text-indent: 20px; 
+}
+
+footer {
+    background-color: red;
+    height:20px;
+    width:100%;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+a.title {
+	color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    padding-left: 200px; 
+}
+
+body div {
+	text-align: center;
+}

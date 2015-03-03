@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<title>How To Guide - Gale</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<head>
+
+</head>
+
+<body>
+    <header>
+        <h1><a class="title" href="main.html">How To Guide - Gale</a></h1>
+    </header>
+
+    <nav>
+        <p class="list"><a href="main.html">Introduction</a></p>
+        <p class="list"><a href="what.html">What &amp; Why</a></p>
+        <p class="list"><a href="basic.html">Implementation &amp; Variations</a></p>
+        <p class="list"><a href="variations.html">Variations</a></p>
+        <p class="list"><a href="PHPfix.html">Challenges &amp; Solutions</a></p>
+    </nav>
+
+
+    <section>
+        <h1 id="storyTitle">Basic Implementation</h1>
+
+        <p class="details" id="story"> 
+        The basic implementation of the download attribute, is well, basic. Very basic. The reason why this section is smaller and on its own, is to also hint at the large number of restrictions of the download attribute and HTML as well.
+
+        The standard call for making an object a link to data that is downloaded by the user is: 
+
+        </p>
+        <p>
+        The a tag is the same as before, however the download attribute is placed after the href declaration. This tells the browser running that the object enclosed in the a brackets will be downloaded by the user. This statement is the default statement, and simply downloads the exact file as is to the users download directory, while keeping the user on the same page.
+        A variation, and in fact the only variation to the download attribute is below: 
+        </p>
+        <p>
+        Setting the download attribute with a new string name, will change the name of the file once it is downloaded to by the user. This is useful when the data being accessed has an obscure naming convention by a third party, or if the source location requires a unique naming convention for organization. 
+        In short, these are the only two modifications to the download attribute. Not very good if you want your website to do more and have these features across multiple web platforms. Download is currently is only supported in HTML with these browsers: 
+        Chrome  14.0+
+        FireFox 20.0+
+        Opera 15+
+
+        </p>
+
+
+
+    </section>
+
+    <footer>
+        &laquo; Created by Gerald Gale for CS290 - 2015 &raquo;
+    </footer>
+
+
+</body>
+</html>
